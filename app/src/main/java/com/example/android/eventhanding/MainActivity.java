@@ -28,6 +28,16 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
 
+        clicker.setOnLongClickListener(
+                new Button.OnLongClickListener() {
+                    public boolean onLongClick(View v) {
+                        TextView displayText = (TextView) findViewById(R.id.displayTextView);
+                        displayText.setText("It's so long!!");
+                        return true;
+                    }
+                }
+        );
+
 
     }
 }
