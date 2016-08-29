@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button clicker = (Button) findViewById(R.id.button);
 
+        // creates and sets the onClickListener for the button in Java
         clicker.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v){
