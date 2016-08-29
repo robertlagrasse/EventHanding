@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     public boolean onLongClick(View v) {
                         TextView displayText = (TextView) findViewById(R.id.displayTextView);
                         displayText.setText("It's so long!!");
-                        return true;
+                        return false;
                     }
                 }
         );
